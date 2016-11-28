@@ -5,14 +5,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>DouPHP 管理中心</title>
 <meta name="Copyright" content="Douco Design." />
-<link href="/cms/Public/css/public.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="/cms/Public/js/jquery.min.js"></script>
-<script type="text/javascript" src="/cms/Public/js/global.js"></script>
+<link href="/Public/css/public.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/Public/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Public/js/global.js"></script>
 </head>
 <body>
 <div id="dcWrap"> <div id="dcHead">
  <div id="head">
-  <div class="logo"><a href="index.html"><img src="/cms/Public/images/dclogo.gif" alt="logo"></a></div>
+  <div class="logo"><a href="index.html"><img src="/Public/images/dclogo.gif" alt="logo"></a></div>
   <div class="nav">
    <ul>
     <li class="M"><a href="JavaScript:void(0);" class="topAdd">新建</a>
@@ -57,7 +57,7 @@
  </ul>
   <ul>
   <li><a href="article_category.html"><i class="articleCat"></i><em>文章分类</em></a></li>
-  <li><a href="article.html"><i class="article"></i><em>文章列表</em></a></li>
+  <li><a href="<?php echo U('Article/article');?>"><i class="article"></i><em>文章列表</em></a></li>
  </ul>
    <ul class="bot">
   <li><a href="backup.html"><i class="backup"></i><em>数据备份</em></a></li>
